@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main", "master" ]
 
-# Cấp quyền cho workflow để có thể push report lên branch gh-pages
+# Cấp quyền cho workflow để có thể push report lên branch gh-pagese
 permissions:
   contents: write
   pages: write
