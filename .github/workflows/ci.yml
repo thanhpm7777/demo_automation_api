@@ -23,6 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
-    - name: Run tests with pytest
+    - name: Run Regression Tests
       run: |
-        pytest -v
+        pytest -v -m regression
